@@ -1,5 +1,5 @@
 # Train/val/test sets
-path: ../input/normal-dataset-full/Normal_Dataset_Full  # dataset root dir  
+path: /kaggle/input/normal-dataset-full/Normal_Dataset_Full  # dataset root dir  
 train: Training_Data/images # train images
 val: Validation_Data/images  # val images 
 test: Test_Data/images # test images
