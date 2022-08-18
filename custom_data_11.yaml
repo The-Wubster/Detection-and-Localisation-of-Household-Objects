@@ -1,0 +1,12 @@
+# Train/val/test sets
+path: /kaggle/input/house-full-dataset/Normal_Dataset_Full  # dataset root dir  
+train: Training_Data/images # train images
+val: Validation_Data/images  # val images 
+test: Test_Data/images # test images
+
+# Classes
+nc: 37  # number of classes
+names: [ 'Window', 'Door', 'Light', 'Carpet', 'Cupboard', 'Mirror', 'Curtains', 'Dustbin', 'Art', 'Fridge',
+         'Oven', 'Microwave', 'Kettle', 'Toaster', 'Tap', 'Sink', 'Pot', 'Cup', 'Bowl', 'Toilet', 
+         'Dishwasher', 'Cloth', 'Jug', 'Bottle', 'Coffee Machine', 'Counter', 'Couch', 'Television', 'Pillow', 'Fire Place', 
+         'Chair', 'Table', 'Bed', 'Draws', 'Desk', 'Computer', 'Flowers'] # class names
