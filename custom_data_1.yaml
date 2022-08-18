@@ -8,7 +8,7 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: /Users/ryanmildenhall/Desktop/Skripsie_Topics/Final/Normal_Dataset  # dataset root dir  
+path: ../input/normal-dataset-full/Normal_Dataset_Full  # dataset root dir  
 train: Training_Data/images # train images
 val: Validation_Data/images  # val images 
 test: Test_Data/images # test images
