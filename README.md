@@ -4,7 +4,7 @@ Repository for storing files related to Skripsie. These files include adjusted v
 
 ## Description
 ### build_data frame_by_row	
-Test Programme to Construct a data frame row by row.
+Test Programme to construct a data frame row by row.
 
 ### class_label_count	
 Counts the number of occurrences of labels for each class in a group of images.
@@ -19,7 +19,7 @@ Performs specified transformations and augmentations required by the user on the
 Converts all image names in a directory to an array.
 
 ### object_induction_test	
-Contains functions for object enrolment and object detection specified by the user. These custom functions are called in the “detect.py” script of a YOLO model and allow the user to interact with the vision system through speech or text.
+Contains functions for object enrolment and object detection specified by the user. These custom functions are called in the “detect.py” script of a YOLO model and allow the user to interact with the vision system through speech or text. The speech interface makes use of five-shot object enrolment to ensure a more robust system.
 
 ### resize_images_and_labels	
 Allows user to resize a dataset to a specified size required by the object detector. 
@@ -36,6 +36,8 @@ Converts contents of a text file to a list.
 ### validation_shell_script	
 Runs multiple validation scripts at different confidence and IOU thresholds for different models specified by the user.
 
+## Environment Setup
+To setup the environment for the object detector and language interface one should follow the instructions at https://github.com/ultralytics/yolov5 or https://github.com/WongKinYiu/yolov7. Additionally, one should import the speech_recognition package. Furthermore, one should ensure all required files are located in the same repository as the YOLO model.
 
 ## License
 
