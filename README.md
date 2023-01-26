@@ -36,6 +36,9 @@ Converts contents of a text file to a list.
 ### validation_shell_script	
 Runs multiple validation scripts at different confidence and IOU thresholds for different models specified by the user.
 
+## Dataset and Model Weights
+The dataset and weights of the top 5 YOLO models implemented in this project can be found at: 
+
 ## Environment Setup
 To setup the environment for the object detector and language interface one should follow the instructions at https://github.com/ultralytics/yolov5 or https://github.com/WongKinYiu/yolov7. Additionally, one should import the speech_recognition package. Furthermore, one should ensure all required files are located in the same repository as the YOLO model.
 
