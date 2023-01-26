@@ -37,10 +37,10 @@ Converts contents of a text file to a list.
 Runs multiple validation scripts at different confidence and IOU thresholds for different models specified by the user.
 
 ## Dataset and Model Weights
-The dataset and weights of the top 5 YOLO models implemented in this project can be found at: 
+The dataset and weights of the top 5 YOLO models implemented in this project can be found at: https://drive.google.com/drive/folders/10hJtw0Jq2xcDIj-gWoOCALfQXy7sF56H?usp=share_link
 
 ## Environment Setup
-To setup the environment for the object detector and language interface one should follow the instructions at https://github.com/ultralytics/yolov5 or https://github.com/WongKinYiu/yolov7. Additionally, one should import the speech_recognition package. Furthermore, one should ensure all required files are located in the same repository as the YOLO model.
+To setup the environment for the object detector and language interface one should follow the instructions at https://github.com/ultralytics/yolov5 or https://github.com/WongKinYiu/yolov7. Additionally, one should import the speech_recognition package. Furthermore, one should ensure all required files are located in the same repository as the YOLO model. From this one should follow the instructions in the YOLOv5 and YOLOv7 and yolov7 repositories linked at the beginning of this readme.
 
 ## License
 
