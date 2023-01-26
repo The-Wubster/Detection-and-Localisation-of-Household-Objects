@@ -1,0 +1,10 @@
+train: ./Full_Dataset_1280/Train_Data/images/ # train images 
+val: ./Full_Dataset_1280/Validation_Data/images/  # val images 
+test: ./Full_Dataset_1280/Validation_Data/images/  # test images
+
+# Classes
+nc: 37  # number of classes
+names: [ 'Window', 'Door', 'Light', 'Carpet', 'Cupboard', 'Mirror', 'Curtains', 'Dustbin', 'Art', 'Fridge',
+         'Oven', 'Microwave', 'Kettle', 'Toaster', 'Tap', 'Sink', 'Pot', 'Cup', 'Bowl', 'Toilet', 
+         'Dishwasher', 'Cloth', 'Jug', 'Bottle', 'Coffee Machine', 'Counter', 'Couch', 'Television', 'Pillow', 'Fire Place', 
+         'Chair', 'Table', 'Bed', 'Draws', 'Desk', 'Computer', 'Flowers'] # class names
