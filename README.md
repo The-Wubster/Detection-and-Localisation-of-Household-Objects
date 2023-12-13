@@ -1,4 +1,4 @@
-# Skripsie
+# Detection and Localisation of Household Objects
 ## Introduction
 Repository for storing files related to Skripsie. These files include adjusted validation and detection scripts from the YOLOv5 and YOLOv7 repositories at https://github.com/ultralytics/yolov5 and https://github.com/WongKinYiu/yolov7 respectively as well as utility files to process data and successfully allow for a language interface to be integrated with the YOLO models for use in household robotic applications. The models have been trained to detect 35 household items. 
 
